@@ -59,3 +59,12 @@
         @apply w-full bg-background-400 rounded-lg outline-none px-2;
     }
 }
+
+
+   @media screen and (min-width: 640px) {
+    li.todo button{
+        @apply text-xs;
+    }
+
+    
+   }
