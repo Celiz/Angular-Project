@@ -26,7 +26,7 @@
                     <!--ya editado-->
                     <input type="checkbox" [checked]="todo.completed" (click)="toggleTodo(todo.id)">
                     <label>{{todo.title}}</label>
-                    @if (!todo.completed) {<button class="text-amber-300" (click)="editTodo(todo.id)">Editar</button>}
+                    @if (!todo.completed) {<button class="text-amber-300"  (click)="editTodo(todo.id)">Editar</button>}
                     <button class="text-red-500" (click)="removeTodo(todo.id)">Eliminar</button>
                 </li>
 

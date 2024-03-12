@@ -44,11 +44,11 @@
     }
 
     li.todo:hover button{
-        @apply block;
+        @apply md:visible;
     }
 
     li.todo button{
-        @apply hidden text-xs;
+        @apply visible text-xs md:invisible;
     }
 
     li.todo input[type="checkbox"]{
@@ -60,11 +60,3 @@
     }
 }
 
-
-   @media screen and (min-width: 640px) {
-    li.todo button{
-        @apply text-xs;
-    }
-
-    
-   }
