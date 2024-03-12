@@ -12,20 +12,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './todo.component.css',
 })
 export class TodoComponent implements OnInit{
-  todoList = signal<TodoModel[]>([
-    {
-      id: 1,
-      title: 'Learn Angular',
-      completed: false,
-      editing: false,
-    },
-    {
-      id: 2,
-      title: 'Learn React',
-      completed: false,
-      editing: false,
-    },
-  ]);
+  todoList = signal<TodoModel[]>([]);
 
   constructor(){
 
